@@ -1,0 +1,10 @@
+.class1{
+	text-transform: uppercase;
+}
+.class2{
+	text-transform:lowercase;
+}
+.class3{
+	text-transform:captialize;
+	text-indent:150px;
+}

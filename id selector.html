@@ -1,0 +1,53 @@
+<!-- name selector allow us the option of code reusebility by avoiding writing style attribute in the opening tag of an element for which we want to do styling but the problem is 
+all the elements having same name are styled rather than the one we want to style to overcome this we came across id selector using id selector 
+the one element which we want to style gets styled # is very much important for for defining an id selector-->
+
+<!doctype html>
+<html>
+   <head>
+      <title> using id selector</title>
+      <style>
+	    body{
+            background-color:azure;
+		}
+		#id1{
+		   text-align:center;font-size:30px;
+		}
+		
+		#id2{
+		   text-align:left;font-family:Verdana;
+		}
+		
+		#id3{
+		      text-align:right;color:red;font-size:25px;
+		}
+		
+		#id4{
+		   color:green;text-align:justify;
+		}
+	  </style>	  
+   </head>
+   <body>
+   <h1>   paragraphs with different styles</h1>
+   <p id="id1">
+         text center alignment with font size 30px
+   </p>
+   
+    <p id="id2">
+      text left alignment with differernt font family
+   </p>
+   
+    <p id="id3">
+     text right alignment with red color and font size 25 px
+   </p>
+   
+    <p id="id4">
+      text green colour with justify alignment
+   </p>
+   
+   <p id="id1">
+         fifth paragraph
+   </p>
+   </body>
+   
+</html>
